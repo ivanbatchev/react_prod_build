@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "config/build",
+		"noImplicitAny": true,
+		"module": "ES2022",
+		"target": "ES5",
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"moduleResolution": "Node",
+		// настройка импортов
+		// работать в конфиге вебпак работать с импортами модуля
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	},
+	"exclude": ["node_modules"]
+}
